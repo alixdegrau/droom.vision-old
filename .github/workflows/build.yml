@@ -35,8 +35,7 @@ jobs:
           name: hugo
 
       - name: "debug"
-        run:
-          - 'ls -la'
+        run: 'ls -la'
 
       - name: "Deploy Hugo website to InnerEq.org"
         uses: appleboy/scp-action@master
