@@ -2,7 +2,7 @@
 <html>
   <head>
     {{block "metadata" .}}
-      <title>{{.Title}} | {{.Site.Title}}</title>
+      <title>{{if .Title}} {{.Title}} | {{.Site.Title}} {{else}} {{.Site.Title}} {{end}}</title>
       {{template "_internal/opengraph.html" . }}
     {{end}}
     {{partial "head.html" .}}
