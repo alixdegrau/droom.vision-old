@@ -1,6 +1,8 @@
 baseURL = 'https://droom.vision/'
 languageCode = 'ru'
+defaultContentLanguage = 'ru'
 title = 'Droomvisioen'
+timeZone = 'Europe/Kiev'
 
 [permalinks]
   blog = '/:section/:slug/'
