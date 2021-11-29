@@ -1,0 +1,8 @@
+{{ $src := $.Get "src"}}
+{{ $img := resources.Get $src }}
+{{ $resized := $img.Resize "512x" }}
+{{ $hashed := $resized | resources.Fingerprint }}
+
+<picture>
+  <img src="{{ $hashed.RelPermalink }}">
+</picture>

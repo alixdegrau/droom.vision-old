@@ -1,0 +1,7 @@
+baseURL = 'https://droom.vision/'
+languageCode = 'ru'
+title = 'Droomvisioen'
+
+[permalinks]
+  blog = '/:section/:slug/'
+  notes = '/:section/:year/:month/:day/:slug/'

@@ -1,0 +1,15 @@
+{{define "main"}}
+<main>
+  {{.Content}}
+
+  <p>Записи:</p>
+
+  <ul>
+    {{range .Pages}}
+    <li>
+      <a class="title" href="{{.RelPermalink}}">{{.Title}}</a> <p class="subtitle">{{.Date.Format "2006-01-02"}} · {{.Params.categories}} · {{ if eq .Kind "page" }} {{ delimit .Params.tags ", " }} {{end}}</p>
+    </li>
+    {{end}}
+  </ul>
+</main>
+{{end}}
