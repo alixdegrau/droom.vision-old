@@ -1,6 +1,6 @@
-{{ $src := $.Get "src"}}
-{{ $img := resources.Get $src }}
-{{ $resized := $img.Resize "512x" }}
+{{ $source := $.Get "src" }}
+{{ $image := resources.Get $source }}
+{{ $resized := $image.Resize "512x" }}
 {{ $hashed := $resized | resources.Fingerprint }}
 
 <picture>
