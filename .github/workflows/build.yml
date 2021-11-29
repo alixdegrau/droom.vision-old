@@ -26,7 +26,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: package
+    needs: build
 
     steps:
       - name: "Unpack Hugo website"
@@ -43,5 +43,5 @@ jobs:
           port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
           source: public
           target: /srv/http/droom.vision
-          strip_components: 1
+          Strip_components: 1
           rm: true
