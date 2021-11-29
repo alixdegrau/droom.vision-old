@@ -35,7 +35,7 @@ jobs:
           name: hugo
 
       - name: "debug"
-        runs:
+        run:
           - 'ls -la'
 
       - name: "Deploy Hugo website to InnerEq.org"
