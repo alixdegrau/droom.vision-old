@@ -67,6 +67,8 @@ Just hold it together man
 This is your last chance
 ```
 
+{{< image src="images/duster_duster1.jpg" >}}
+
 **Ghoulish**
 
 https://www.youtube.com/watch?v=9gVSY3cImQM
