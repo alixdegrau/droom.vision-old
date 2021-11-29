@@ -34,9 +34,6 @@ jobs:
         with:
           name: hugo
 
-      - name: "debug"
-        run: 'ls -la'
-
       - name: "Deploy Hugo website to InnerEq.org"
         uses: appleboy/scp-action@master
         with:
@@ -44,7 +41,7 @@ jobs:
           username: ${{ secrets.CI_DEPLOYER_SSH_USER }}
           key: ${{ secrets.CI_DEPLOYER_SSH_KEY_INNEREQ }}
           port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
-          source: droom.vision
+          source: .
           target: /srv/http/droom.vision
           Strip_components: 1
           rm: true
