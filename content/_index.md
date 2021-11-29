@@ -18,9 +18,10 @@ title: …
 
 Неотъемлемые атрибуты, заполняющие зияющие дыры моего бренного существования:
 
-- технарство (DevOps, functional programming, Emacs, Dvorak keyboard layout, decentralization);
+- технарство (DevOps, functional programming, Emacs, decentralization);
+- эргономика (Dvorak keyboard layout, mechanical keyboards);
 - лингвистика (applied and computational linguistics, Germanistics, Slavistics);
-- политика (free market anarchism, egoism, voluntarism);
+- политика (free market anarchism, egoism, voluntarism, DIY);
 - атеизм и религеоведение (paganism, occultism, esotericism);
 - литература (non-fiction, absurdism, low fantasy, hard sci-fi);
 - музыка ([Last.fm](https://www.last.fm/user/commagray), [MusicBrainz](https://musicbrainz.org/user/commagray_revived/collections)) и музыка как код;
