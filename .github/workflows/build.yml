@@ -18,6 +18,12 @@ jobs:
       - name: "Build Hugo website"
         run: hugo --minify
 
+      - name: "Fix strange bug with Gemini sections"
+        run: cp public/blog/gemini.gmi public/gemini/blog.gmi && cp public/notes/gemini.gmi public/gemini/notes.gmi
+
+      - name: "Copy images to Gemini capsule"
+        run: cp -pr assets/images public/gemini/
+
       - name: "Upload Hugo artifact"
         uses: actions/upload-artifact@v2
         with:
@@ -33,12 +39,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: hugo
-
-      - name: "Fix strange bug with Gemini sections"
-        run: cp blog/gemini.gmi gemini/blog.gmi && cp notes/gemini.gmi gemini/notes.gmi
-
-      - name: "Copy images to Gemini capsule"
-        run: cp -pr images gemini/
 
       - name: "Deploy Gemini capsule to InnerEq.org"
         uses: appleboy/scp-action@master
