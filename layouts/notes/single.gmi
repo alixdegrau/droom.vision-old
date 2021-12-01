@@ -1,0 +1,7 @@
+# {{ .Date.Format "2006-01-02 03:04 PM" }} {{if .Title}}· {{ .Title | safeHTML }}{{else}}{{end}}
+
+{{if fileExists (replace $.File.Path ".md" ".gmi") }}
+{{readFile (replace (replace $.File.Path ".md" ".gmi") ".html" ".gmi") | safeHTML}}
+{{else}}
+{{.RawContent | safeHTML}}
+{{end}}
