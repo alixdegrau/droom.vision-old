@@ -9,8 +9,8 @@ uglyurls = true
 name = "Sasha Wasilewska"
 
 [permalinks]
-  blog = '/blog/:slug'
-  notes = '/notes/:year/:month/:day/:slug'
+  blog = '/blog/:filename'
+  notes = '/notes/:year/:month/:day/:filename'
 
 [outputs]
   home = ['HTML', 'RSS', 'GEMTEXT']
