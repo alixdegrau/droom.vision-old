@@ -1,8 +1,12 @@
 {{define "main"}}
 <main>
   <article>
+    {{if eq .Section "blog"}}
     <h1>{{ .Title }}</h1>
     <p class="subtitle">{{ .Date.Format "2006-01-02" }} · {{ .Params.categories }} · {{ if eq .Kind "page" }} {{ delimit .Params.tags ", " }} {{end}}</p>
+    {{else}}
+    <h1>{{ .Title }}</h1>
+    {{end}}
 
     {{ .Content }}
   <article>
