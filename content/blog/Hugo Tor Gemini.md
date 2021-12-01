@@ -60,13 +60,13 @@ http://wjbwa5f5klig6szvtm7zsv7xk55r7yi2aaqo5vgtz7syxxdvy2m2skyd.onion:8180 {
 }
 ```
 
-Meta-тег для добавления в условный шаблон Hugo `layouts/partials/head.html` (не забудьте сменить Onion-адрес на свой):
+Meta-тег для добавления в условный шаблон Hugo `layouts/partials/head.html`:
 
 ```
 <meta http-equiv="onion-location" content="http://wjbwa5f5klig6szvtm7zsv7xk55r7yi2aaqo5vgtz7syxxdvy2m2skyd.onion{{.RelPermalink}}" />
 ```
 
-Возможно, этот meta-тег можно автоматически генерировать с помощью `[   outputFormats]` в конфиге Hugo по аналогии с Gemini.
+Не забудьте сменить Onion-адрес на свой. Возможно, этот meta-тег можно автоматически генерировать с помощью `[outputFormats]` в конфиге Hugo по аналогии с Gemini.
 
 ## Gemini
 
