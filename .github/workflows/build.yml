@@ -18,10 +18,7 @@ jobs:
       - name: "Build Hugo website"
         run: hugo --minify
 
-      - name: "Fix strange bug with Gemini sections"
-        run: cp public/blog/gemini.gmi public/gemini/blog.gmi && cp public/notes/gemini.gmi public/gemini/notes.gmi
-
-      - name: "Upload Hugo website"
+      - name: "Upload Hugo artifact"
         uses: actions/upload-artifact@v2
         with:
           name: hugo
@@ -37,17 +34,11 @@ jobs:
         with:
           name: hugo
 
-      - name: "Deploy Hugo website to InnerEq.org"
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.CI_DEPLOYER_SSH_ADDRESS_INNEREQ }}
-          username: ${{ secrets.CI_DEPLOYER_SSH_USER }}
-          key: ${{ secrets.CI_DEPLOYER_SSH_KEY_INNEREQ }}
-          port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
-          source: .
-          target: /srv/http/droom.vision
-          strip_components: 1
-          rm: true
+      - name: "Fix strange bug with Gemini sections"
+        run: cp blog/gemini.gmi gemini/blog.gmi && cp notes/gemini.gmi gemini/notes.gmi
+
+      - name: "Copy images to Gemini capsule"
+        run: cp -pr images gemini/
 
       - name: "Deploy Gemini capsule to InnerEq.org"
         uses: appleboy/scp-action@master
@@ -58,5 +49,20 @@ jobs:
           port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
           source: gemini/
           target: /srv/gemini/droom.vision
+          strip_components: 1
+          rm: true
+
+      - name: "Remove Gemini files"
+        run: rm -rf gemini
+
+      - name: "Deploy Hugo website to InnerEq.org"
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.CI_DEPLOYER_SSH_ADDRESS_INNEREQ }}
+          username: ${{ secrets.CI_DEPLOYER_SSH_USER }}
+          key: ${{ secrets.CI_DEPLOYER_SSH_KEY_INNEREQ }}
+          port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
+          source: .
+          target: /srv/http/droom.vision
           strip_components: 1
           rm: true
