@@ -2,7 +2,8 @@
 {{ $image := resources.Get $source }}
 {{ $resized := $image.Resize "512x" }}
 {{ $hashed := $resized | resources.Fingerprint }}
+{{ $hashedSource := $image | resources.Fingerprint }}
 
 <picture>
-  <img src="{{ $hashed.RelPermalink }}">
+  <a href="{{ $hashedSource.RelPermalink }}"><img src="{{ $hashed.RelPermalink }}"></a>
 </picture>
