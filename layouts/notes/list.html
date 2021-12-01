@@ -4,7 +4,7 @@
 
   {{range .Pages}}
   <article class="note">
-    <p class="subtitle"><a href="{{.RelPermalink}}">{{.Date.Format "2006-01-02 03:04 PM"}}</a></p>
+    <p class="subtitle"><a href="{{.RelPermalink}}">{{.Date.Format "2006-01-02 03:04 PM"}} {{if .Title}}· {{ .Title }}{{else}}{{end}}</a></p>
 
     {{.Content}}
   </article>

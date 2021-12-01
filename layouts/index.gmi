@@ -1,0 +1,43 @@
+# Droomvisioen
+
+Привет, я Саша Василевска из Одессы, Украины — она же commagray в Интернетах.
+
+Я трансфеминная небинарная персона [she/they] и шизоид. Ещё бы знать, что это значит.
+
+=> /blog.gmi Блог
+=> /notes.gmi Дневник
+
+К несчастью, я могла пересекаться с вами ранее. Давайте больше не совершать таких ошибок.
+
+=> mailto:dag@droom.vision Email
+=> https://matrix.to/#/@commagray:sunbutt.faith Matrix
+=> https://t.me/commagray Telegram
+=> https://sect.sunbutt.faith/commagray ActivityPub
+
+Неотъемлемые атрибуты, заполняющие зияющие дыры моего бренного существования:
+
+* технарство (DevOps, functional programming, Emacs, decentralization);
+* эргономика (Dvorak keyboard layout, mechanical keyboards);
+* лингвистика (applied and computational linguistics, Germanistics, Slavistics);
+* пассивизм (lack of initiative, acceptance of outside influence without active respond);
+* политика (free market anarchism, egoism, voluntarism, DIY);
+* атеизм и религеоведение (paganism, occultism, esotericism);
+* литература (non-fiction, absurdism, low fantasy, hard sci-fi);
+* музыка (Last.fm, MusicBrainz) и музыка как код;
+* игры (roguelike, old school and competitive FPS, isometric RPG and MMORPG, TBS and artillery);
+* пони.
+
+=> Last.fm https://www.last.fm/user/commagray
+=> MusicBrainz https://musicbrainz.org/user/commagray_revived/collections
+
+Droomvisioen это попытка поймать за хвост своё состояние и описать вязкую пелену на глазах.
+
+А ещё у слова droom, означающее сон, есть анаграмма: moord — убийство.
+
+---
+
+Breathe us in. Slowly.
+
+=> http://wjbwa5f5klig6szvtm7zsv7xk55r7yi2aaqo5vgtz7syxxdvy2m2skyd.onion/ Tor
+=> https://droom.vision/ HTTP
+=> https://github.com/commagray/droom.vision Source

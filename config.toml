@@ -3,7 +3,31 @@ languageCode = 'ru'
 defaultContentLanguage = 'ru'
 title = 'Droomvisioen'
 timeZone = 'Europe/Kiev'
+uglyurls = true
+
+[author]
+name = "Sasha Wasilewska"
 
 [permalinks]
-  blog = '/:section/:slug/'
-  notes = '/:section/:year/:month/:day/:slug/'
+  blog = '/blog/:slug'
+  notes = '/notes/:year/:month/:day/:slug'
+
+[outputs]
+  home = ['HTML', 'RSS', 'GEMTEXT']
+  section = ['HTML', 'RSS', 'GEMTEXT']
+  page = ['HTML', 'GEMTEXT']
+
+[mediaTypes]
+  [mediaTypes.'text/gemini']
+    suffixes = ['gmi']
+
+[outputFormats]
+  [outputFormats.GEMINI]
+    name = 'GEMTEXT'
+    baseName = 'index'
+    isPlainText = true
+    isHTML = false
+    mediaType = 'text/gemini'
+    protocol = 'gemini://'
+    permalinkable = true
+    path = 'gemini/'

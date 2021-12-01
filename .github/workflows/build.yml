@@ -43,5 +43,17 @@ jobs:
           port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
           source: .
           target: /srv/http/droom.vision
-          Strip_components: 1
+          strip_components: 1
+          rm: true
+
+      - name: "Deploy Gemini capsule to InnerEq.org"
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.CI_DEPLOYER_SSH_ADDRESS_INNEREQ }}
+          username: ${{ secrets.CI_DEPLOYER_SSH_USER }}
+          key: ${{ secrets.CI_DEPLOYER_SSH_KEY_INNEREQ }}
+          port: ${{ secrets.CI_DEPLOYER_SSH_PORT }}
+          source: gemini/
+          target: /srv/gemini/droom.vision
+          strip_components: 1
           rm: true

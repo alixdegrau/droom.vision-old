@@ -1,0 +1,12 @@
+# Блог
+
+Блог поделен на три категории:
+
+* Dag (отвлечённое и мечтательное);
+* Nacht (сфокусированное и техническое);
+* Angst (рефлексирующее и личное).
+
+{{ range .Pages }}
+=> {{ replace .RelPermalink "/gemini" "" 1}} {{ .Title | safeHTML }}
+{{.Date.Format "2006-01-02"}} · {{.Params.categories}} · {{ if eq .Kind "page" }} {{ delimit .Params.tags ", " }} {{end}}
+{{ end }}

@@ -17,6 +17,7 @@
 - технарство (DevOps, functional programming, Emacs, decentralization);
 - эргономика (Dvorak keyboard layout, mechanical keyboards);
 - лингвистика (applied and computational linguistics, Germanistics, Slavistics);
+- пассивизм (lack of initiative, acceptance of outside influence without active respond);
 - политика (free market anarchism, egoism, voluntarism, DIY);
 - атеизм и религеоведение (paganism, occultism, esotericism);
 - литература (non-fiction, absurdism, low fantasy, hard sci-fi);
