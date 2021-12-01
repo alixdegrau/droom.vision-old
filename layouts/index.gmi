@@ -17,7 +17,7 @@
 
 Неотъемлемые атрибуты, заполняющие зияющие дыры моего бренного существования:
 
-* технарство (DevOps, functional programming, Emacs, decentralization);
+* технарство (DevOps, functional programming, Emacs, decentralization, low tech);
 * эргономика (Dvorak keyboard layout, mechanical keyboards);
 * лингвистика (applied and computational linguistics, Germanistics, Slavistics);
 * пассивизм (lack of initiative, acceptance of outside influence without active respond);
@@ -32,6 +32,22 @@
 => MusicBrainz https://musicbrainz.org/user/commagray_revived/collections
 
 Droomvisioen это попытка поймать за хвост своё состояние и описать вязкую пелену на глазах.
+
+```
+This listlessness
+I’m sneaking off
+Call me back
+A cloud-filled world where dust is slow
+Seems foolish
+
+Once behind the earth moon night
+Still shaking
+Clutching me, your hands can’t find the way back home
+Fate like glass, we’re breaking up
+Feels ghoulish
+Emptiness
+But no one cares death made time
+```
 
 А ещё у слова droom, означающее сон, есть анаграмма: moord — убийство.
 
