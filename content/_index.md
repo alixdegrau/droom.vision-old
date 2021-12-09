@@ -28,18 +28,4 @@
 
 Droomvisioen это попытка поймать за хвост своё состояние и описать вязкую пелену на глазах.
 
-> This listlessness  
-> I'm sneaking off  
-> Call me back  
-> A cloud-filled world where dust is slow  
-> Seems foolish
-> 
-> Once behind the earth moon night  
-> Still shaking  
-> Clutching me, your hands can't find the way back home  
-> Fate like glass, we're breaking up  
-> Feels ghoulish  
-> Emptiness  
-> But no one cares death made time
-
 А ещё у слова droom, означающее сон, есть анаграмма: moord — убийство.
