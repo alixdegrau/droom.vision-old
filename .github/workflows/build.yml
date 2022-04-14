@@ -18,8 +18,8 @@ jobs:
       - name: "Build Hugo website"
         run: hugo --minify
 
-     # - name: "Fix strange bug with Gemini sections"
-     #   run: cp public/blog/gemini.gmi public/gemini/blog.gmi && cp public/notes/gemini.gmi public/gemini/notes.gmi
+      #- name: "Fix strange bug with Gemini sections"
+      #  run: cp public/blog/gemini.gmi public/gemini/blog.gmi && cp public/notes/gemini.gmi public/gemini/notes.gmi
 
       #- name: "Copy images to Gemini capsule"
       #  run: cp -pr assets/images public/gemini/
