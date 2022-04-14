@@ -1,4 +1,4 @@
-Привет, я Саша Василевска из Одессы, Украины — она же `commagray` в Интернетах.
+Привет, я Алікс Ґрау из Одессы, Украины — она же `commagray` в Интернетах.
 
 Я трансфеминная небинарная персона `[she/they]` и шизоид. Ещё бы знать, что это значит.
 
@@ -9,9 +9,9 @@
 К несчастью, я могла пересекаться с вами ранее. Давайте больше не совершать таких ошибок.
 
 - Email: [dag@droom.vision](mailto:dag@droom.vision)
-- Matrix: [@commagray:sunbutt.faith](https://matrix.to/#/@commagray:sunbutt.faith)
+- Matrix: [@agrau:nltrix.net](https://matrix.to/#/@agrau:nltrix.net)
 - Telegram: [@commagray](https://t.me/commagray) (стучаться в случае, если Matrix недоступен)
-- ActivityPub: [commagray@sect.sunbutt.faith](https://sect.sunbutt.faith/commagray) (Fediverse)
+- ActivityPub: [@commagray:mastodon.ml](https://mastodon.ml/@commagray)
 
 Неотъемлемые атрибуты, заполняющие зияющие дыры моего бренного существования:
 
